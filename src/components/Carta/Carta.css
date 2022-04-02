@@ -1,0 +1,30 @@
+.carta {
+    position: relative;
+}
+
+.carta img {
+    width: 100%;
+    display: block;
+    border: 2px solid #023e8a;
+    border-radius: 8px;
+}
+.carta .frente {
+    transform: rotateY(90deg);
+    transition: all ease-in 0.3s;
+    position: absolute;
+}
+
+.vuelta .frente{
+    transform: rotateY(0deg);
+    transition-delay: 0.3s;
+}
+
+.carta .trasero {
+    transition: all ease-in 0.3s;
+    transition-delay: 0.3s;
+}
+
+.vuelta .trasero {
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}
