@@ -3,17 +3,23 @@ import React from "react";
 import {useEffect, useState} from "react";
 import Carta from "../Carta/Carta";
 import "./Memoria.css"
+import carta0 from '../../../public/assets/images/carta_0.png';
+import carta1 from '../../../public/assets/images/carta1.png';
+import carta2 from '../../../public/assets/images/carta2.png';
+import carta3 from '../../../public/assets/images/carta3.png';
+import carta4 from '../../../public/assets/images/carta4.png';
+import carta5 from '../../../public/assets/images/carta5.png';
 
 
 
 
 const imagenesCartas = [
-  {"src": '/assets/images/carta_0.png', pareja: false},
-  {"src": '/assets/images/carta1.png', pareja: false},
-  {"src": '/assets/images/carta2.png', pareja: false},
-  {"src": '/assets/images/carta3.png', pareja: false},
-  {"src": '/assets/images/carta4.png', pareja: false},
-  {"src": '/assets/images/carta5.png', pareja: false}
+  {"src": carta0, pareja: false},
+  {"src": carta1, pareja: false},
+  {"src": carta2, pareja: false},
+  {"src": carta3, pareja: false},
+  {"src": carta4, pareja: false},
+  {"src": carta5, pareja: false}
 ]
 
 function Memoria() {
