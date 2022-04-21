@@ -5,7 +5,8 @@
     },
     "extends": [
         "eslint:recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "airbnb", "airbnb/hooks"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -19,6 +20,7 @@
     ],
     "rules": {
         "react/prop-types": 0,
+        "allowIndentationTabs": true,
         "indent": [
             "error",
             "tab"
